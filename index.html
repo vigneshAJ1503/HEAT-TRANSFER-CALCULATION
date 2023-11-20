@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HEAT TRANSFER CALCULATION</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>HEAT TRANSFER CALCULATION</h1>
+
+        <label for="T_H_IN"></label>
+        <input type="number" id="T_H_IN" placeholder="Enter T_H_IN"><br>
+
+        <label for="T_C_IN"></label>
+        <input type="number" id="T_C_IN" placeholder="Enter T_C_IN"><br>
+
+        <label for="m_dot_H"></label>
+        <input type="number" id="m_dot_H" placeholder="Enter m_dot_H"><br>
+
+        <label for="m_dot_C"></label>
+        <input type="number" id="m_dot_C" placeholder="Enter m_dot_C"><br>
+
+        <label for="UA"></label>
+        <input type="number" id="UA" placeholder="Enter UA"><br>
+
+        <button onclick="calculate()">Calculate</button>
+
+        <div id="results"></div>
+
+        <script src="sample.js"></script>
+    </div>
+
+</body>
+
+</html>
